@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    height:390px;
+    width:350px;
+    background-color:whitesmoke;
+    margin-left: 30%;
+    margin-top: 10%;
+    padding:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  
+}
+
+
+.section > label{
+    margin-right:7px;
+    font-size:18px;
+    font-weight:bold;
+    color:black;
+}
+
+.section > input{
+    padding:5px 10px;
+}
+.loginbutton{
+    background-color:black;
+    color:white;
+    font-size: 18px;
+    padding:5px 10px;
+    
+}
